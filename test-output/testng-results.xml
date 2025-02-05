@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-05T13:03:24 IST" name="Suite" finished-at="2025-02-05T13:04:15 IST" duration-ms="50155">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidation.LoginErrorValidation()[pri:0, instance:MarketPlace.Tests.ErrorValidation@1d730606]" name="LoginErrorValidation" class="MarketPlace.Tests.ErrorValidation"/>
+      </group> <!-- ErrorHandling -->
+    </groups>
+    <test started-at="2025-02-05T13:03:24 IST" name="Submit Test" finished-at="2025-02-05T13:04:04 IST" duration-ms="39963">
+      <class name="MarketPlace.Tests.Submit">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:MarketPlace.Tests.Submit@12c7a01b]" started-at="2025-02-05T13:03:25 IST" name="launchApplication" finished-at="2025-02-05T13:03:33 IST" duration-ms="8119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="Contactus(java.util.HashMap)[pri:0, instance:MarketPlace.Tests.Submit@12c7a01b]" started-at="2025-02-05T13:03:33 IST" name="Contactus" data-provider="getContactUsData" finished-at="2025-02-05T13:03:39 IST" duration-ms="6121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=John Doe, number=1234567890, description=I have a general question., email=johndoe@example.com, filePath=C:\Users\NWNB 2638\Downloads\Solar.jpg, queryType=Loan Request}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contactus -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:MarketPlace.Tests.Submit@12c7a01b]" started-at="2025-02-05T13:03:39 IST" name="launchApplication" finished-at="2025-02-05T13:03:49 IST" duration-ms="9916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="Contactus(java.util.HashMap)[pri:0, instance:MarketPlace.Tests.Submit@12c7a01b]" started-at="2025-02-05T13:03:49 IST" name="Contactus" data-provider="getContactUsData" finished-at="2025-02-05T13:03:54 IST" duration-ms="5227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Jane Smith, number=0987654321, description=I need help with my account., email=janesmith@example.com, filePath=C:\Users\NWNB 2638\Downloads\Land ownership .pdf, queryType=Buy Existing Project}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contactus -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:MarketPlace.Tests.Submit@12c7a01b]" started-at="2025-02-05T13:03:54 IST" name="launchApplication" finished-at="2025-02-05T13:03:57 IST" duration-ms="3345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="Login(java.util.HashMap)[pri:0, instance:MarketPlace.Tests.Submit@12c7a01b]" started-at="2025-02-05T13:03:57 IST" name="Login" data-provider="getData" finished-at="2025-02-05T13:03:58 IST" duration-ms="323" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Test@1234, email=ruta@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:MarketPlace.Tests.Submit@12c7a01b]" started-at="2025-02-05T13:03:58 IST" name="launchApplication" finished-at="2025-02-05T13:04:04 IST" duration-ms="6357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="Login(java.util.HashMap)[pri:0, instance:MarketPlace.Tests.Submit@12c7a01b]" started-at="2025-02-05T13:04:04 IST" name="Login" data-provider="getData" finished-at="2025-02-05T13:04:04 IST" duration-ms="376" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, email=sona@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- MarketPlace.Tests.Submit -->
+    </test> <!-- Submit Test -->
+    <test started-at="2025-02-05T13:04:05 IST" name="Error Validation Test" finished-at="2025-02-05T13:04:15 IST" duration-ms="9659">
+      <class name="MarketPlace.Tests.ErrorValidation">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:MarketPlace.Tests.ErrorValidation@1d730606]" started-at="2025-02-05T13:04:05 IST" name="launchApplication" finished-at="2025-02-05T13:04:13 IST" duration-ms="8202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:MarketPlace.Tests.ErrorValidation@1d730606]" started-at="2025-02-05T13:04:13 IST" name="LoginErrorValidation" finished-at="2025-02-05T13:04:14 IST" duration-ms="1300" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error message did not match! expected [user nots found] but found [user not found]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error message did not match! expected [user nots found] but found [user not found]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at MarketPlace.Tests.ErrorValidation.LoginErrorValidation(ErrorValidation.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+      </class> <!-- MarketPlace.Tests.ErrorValidation -->
+    </test> <!-- Error Validation Test -->
+  </suite> <!-- Suite -->
+</testng-results>

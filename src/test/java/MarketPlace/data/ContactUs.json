@@ -1,0 +1,20 @@
+[
+    {
+        "name": "John Doe",
+        "number": "1234567890",
+        "email": "johndoe@example.com",
+        "queryType": "Loan Request",
+        "description": "I have a general question.",
+        "filePath": "C:\\Users\\NWNB 2638\\Downloads\\Solar.jpg"
+    },
+	
+	
+    {
+        "name": "Jane Smith",
+        "number": "0987654321",
+        "email": "janesmith@example.com",
+        "queryType": "Buy Existing Project",
+        "description": "I need help with my account.",
+        "filePath": "C:\\Users\\NWNB 2638\\Downloads\\Land ownership .pdf"
+    }
+]
