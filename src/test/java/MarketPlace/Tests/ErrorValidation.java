@@ -20,7 +20,7 @@ public class ErrorValidation extends BaseTest {
         String actualErrorMessage = landingPage.getErrorMessage();
         
         // Assert the error message
-        Assert.assertEquals(actualErrorMessage, "user nots found", "Error message did not match!");
+        Assert.assertEquals(actualErrorMessage, "user not found", "Error message did not match!");
 
     }
 }

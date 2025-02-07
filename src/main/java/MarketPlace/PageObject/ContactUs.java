@@ -70,18 +70,18 @@ public class ContactUs extends AbstractComponent {
 		Email.sendKeys(email);
 
 
-//         Click to open the dropdown
-		QueryType.click();
+		QueryType.click();         //         Click to open the dropdown
 
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(40));
 
-	    // Dynamic XPath based on 'queryType' value
-	    String dynamicXPath = "//span[contains(.,'" + queryType + "')]";
-
+	    String dynamicXPath = "//span[contains(.,'" + queryType + "')]";      	    // Dynamic XPath based on 'queryType' value
+    
 	    try {
 	        WebElement queryOption = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(dynamicXPath)));
 	        queryOption.click();
-	    } catch (TimeoutException e)
+	        
+	    } 
+	    catch (TimeoutException e)
 	    {
 	        System.out.println("Query type option not found: " + queryType);
 	    }
